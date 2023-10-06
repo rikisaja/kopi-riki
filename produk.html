@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+
+    <style>
+        /* tulis kode CSS internal di bawah sini */
+
+        .bg-riki {
+            background-color: #042b42;
+            box-shadow: 0 3px 7px -2px #000;
+        }
+
+        body::before {
+            content: "";
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -10000;
+            background-image: url(images/background/bgkopi.png);
+            opacity: 0.5;
+            background-size: 30%;
+        }
+
+
+        /* Batas Akhir penulisan kode CSS internal */
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+</head>
+
+<body>
+    <!-- Tulis Kode Bootstrap Di Bawah Sini -->
+
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg bisadicopy">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo/logo_kuy.png" height="40" alt="image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+                aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav11">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                    </li>
+
+                </ul>
+                <a class="btn btn-outline-light ms-md-3"
+                    href="https://wa.me/6281290465033?text=Halo saya mau tanya dong">
+                    <i class="bi bi-whatsapp"></i> Chat
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="produk mt-5 mb-5 text-center">
+        <div class="container">
+            <h1 id="judul">Pilih Produk Anda</h1>
+            <p class="fs-5">Kualitas terbaik biji kopi pilihan, fresh diambil langsung dari
+                petani</p>
+            <hr class="border border-primary border-3 opacity-75">
+
+            <div class="form-floating mb-3 col-md-4 m-auto">
+                <select class="form-select" id="select_kopi" aria-label="Floating label select example">
+                    <option selected>Belum ada produk yang dipilih</option>
+                    <option value="arabica">Arabica</option>
+                    <option value="robusta">Robusta</option>
+                    <option value="nonkopi">Non Kopi</option>
+                </select>
+                <label for="select_kopi">Pilih Produk Anda</label>
+            </div>
+            <!-- kode selanjutnya kita tulis di bawah sini persis -->
+
+            <div id="baris_produk" class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+
+                <!-- Untuk memperbanyak produk silahkan copy <div class col nya ya jangan card jangan baris -->
+                <div class="col mb-3">
+                    <div class="card">
+                        <img data-lightbox="produk" src="images/produk/kapucino.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    300 ml
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    25.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart-check"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="riki-block footer-small py-4 bg-primary">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    © 2023 Kopi Kuy &amp; Team . All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="vendor/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Batas Akhir penulisan kode Bootstrap -->
+    <script>
+        /* Tulis Javascript Di bawah Sini */
+
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi"
+        var sumber2 = "data.json"
+        var data_mentah = []
+        var data_kopi = []
+
+
+        $.getJSON(sumber2).then(function (data) {
+            data_mentah = data
+            console.log(data_mentah)
+            opsiDanAll()
+
+
+        })
+
+        function opsiDanAll() {
+            var opsi = '<option disabled selected>Semua Produk</option>'
+            for (let key in data_mentah) {
+                opsi += '<option value="' + key + '">' + key + '</option>'
+                data_kopi.push(...data_mentah[key])
+            }
+            select_kopi.innerHTML = opsi
+            tampilkanData()
+        }
+
+        select_kopi.onchange = function () {
+            var pilihan = select_kopi.value
+            data_kopi = data_mentah[pilihan]
+            console.log(data_kopi)
+            tampilkanData()
+        }
+
+
+        function tampilkanData() {
+            baris_produk.innerHTML = ""
+            data_kopi.forEach(kopi => {
+                baris_produk.innerHTML += `<div class="col mb-3">
+                    <div class="card">
+                        <a data-lightbox="produk" href="${kopi.foto}"><img  src="${kopi.foto}" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">${kopi.nama}</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    ${kopi.size}
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    ${kopi.harga}
+                                </div>
+                            </div>
+                            <a href="${kopi.link}" class="btn btn-primary w-100"><i class="bi bi-cart-check"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>`
+            })
+        }
+
+
+
+
+        /* Batas Akhir penulisan kode Javascript */
+    </script>
+</body>
+
+</html>

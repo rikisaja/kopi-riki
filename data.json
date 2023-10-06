@@ -1,0 +1,43 @@
+{
+    "sepatu": [
+        {
+            "nama": "Sepatu Putih",
+            "size": "42",
+            "harga": "550.000",
+            "link": "#",
+            "foto": "images/produk/sepatu1.webp"
+        },
+        {
+            "nama": "Sneakers",
+            "size": "44",
+            "harga": "340.000",
+            "link": "#",
+            "foto": "https://artikelsepatu.com/wp-content/uploads/2022/05/perbedaan-sepatu-kets-dan-sneakers-min.jpg"
+        }
+    ],
+    "jaket": [
+        {
+            "nama": "Jaket Winter Wanita",
+            "size": "S, M, L, XL",
+            "harga": "2.150.000",
+            "link": "#",
+            "foto": "https://s2.bukalapak.com/img/72915583003/s-463-463/data.jpeg.webp"
+        },
+        {
+            "nama": "Jaket Winter Pria",
+            "size": "S, M, L, XL",
+            "harga": "2.450.000",
+            "link": "#",
+            "foto": "https://i.pinimg.com/736x/b2/e6/fe/b2e6fe530e08b2159b7a39293992c6cc.jpg"
+        }
+    ],
+    "survivalkit": [
+        {
+            "nama": "Survival Kit Box",
+            "size": "Besar",
+            "harga": "325.000",
+            "link": "#",
+            "foto": "https://images.tokopedia.net/img/cache/700/product-1/2018/8/6/1560762/1560762_bad361fe-fa3c-4c09-acfa-c8d503454de3_400_400.jpg"
+        }
+    ]
+}
